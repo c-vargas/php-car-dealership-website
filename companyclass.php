@@ -1,11 +1,11 @@
 
 <?php
-	class Company {
+class Company {
     private $company_name = "Vargas Bros Auto Dealership";
     private $company_address = "18230 Tarzana Blvd";
     private $company_citystatezip = "Tarzana, CA 91356";
-	private $company_url = 'http://cvargascoc2.infinityfreeapp.com';
-	private $company_email = "cnvargas@my.canyons.edu";
+    private $company_url = 'http://cvargascoc2.infinityfreeapp.com';
+    private $company_email = "cnvargas@my.canyons.edu";
     protected $whichpage="home"; // determines which page to display, defaults to "home"
 	
 		function getHeader(){
